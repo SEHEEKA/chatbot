@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Happy Birthday Peter :-)"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "you",
+      "patterns": [
+        "who are you"
+      ],
+      "responses": [
+        "I'm zaika"
+      ]
+    },
+    
+    {"tag":"love",
+  "patterns":[
+    "How much do you love me?",
+    "I love you",
+    "Who loves you the most?"
+  ],
+"responses":[
+  "Infinity",
+  "I love you too!",
+  "Daddy"
+]},
+
+{"tag": "sad",
+  "patterns":["I'm sad", 
+  "I feel sad", 
+  "I miss you"],
+  "responses":[
+    "I'm with you",
+    "Remember our love",
+    "Wish I was there..."
+
+  ]
+},
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
